@@ -25,6 +25,12 @@ The supplied project configuration still selects `/Game/ThirdPerson/Lvl_ThirdPer
 
 The screenshot record documents visible scene composition and editor settings. Package preparation did not launch the project, execute supplied scripts, test gameplay, or measure performance.
 
+## Lab 5 verification status
+
+The supplied **Tutorial - Lab#5.pdf — Open-World Design and Interactive Systems** has now been checked. The GDD requires Sections **5, 6 and 11**. The project already contains `Content/ThirdPerson/Blueprints/BP_DayNightCycle.uasset` and a placed instance in `Region01_VerdantFlats` referencing a Directional Light. The main region also contains fog and post-process actor packages, plus fire effects with Niagara and audio components.
+
+These are static findings, not a completed Play-mode test. The Blueprint graph screenshot, morning/midday/sunset gameplay captures, clean hero shot, DaySpeed experiments and several lighting/audio/post-process checks remain outstanding. An Unreal Editor installation was unavailable on the review machine. See [LAB5-VERIFICATION.md](LAB5-VERIFICATION.md) for the exact remaining checks. The release remains the sanitized supplied project snapshot; no game packages have been altered to imply unverified completion.
+
 ## Files and privacy
 
 `PROJECT-FILES.json` lists every prepared project file, its size, SHA-256 hash and containing release bundle. `SHA256SUMS.txt` verifies the ZIP downloads.

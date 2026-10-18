@@ -1,0 +1,12 @@
+# Full project content is supplied in the private release bundles.
+/Content/
+/Binaries/
+/Intermediate/
+/Saved/
+/DerivedDataCache/
+/.vs/
+/.idea/
+/.vscode/
+.DS_Store
+*.log
+*.tmp
